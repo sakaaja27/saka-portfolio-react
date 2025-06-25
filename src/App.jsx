@@ -1,4 +1,5 @@
 import Beams from "./widget/BeamsBackground";
+import Lanyard from "./widget/Lanyard";
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
           beamHeight={15}
           beamNumber={12}
           lightColor="#ffffff"
-          speed={2}
+          speed={3}
           noiseIntensity={1.75}
           scale={0.2}
           rotation={0}
@@ -57,9 +58,17 @@ function Navbar() {
 
 function Hero() {
   return (
-    <div className="pt-24 text-center text-white">
-      <h1 className="text-4xl font-bold">Selamat Datang</h1>
-      <p className="mt-4 text-lg">Proyek dengan latar Beams + Navbar Glass</p>
+    <div className="px-6 text-white h-screen flex items-center justify-between relative overflow-hidden">
+      <div className="flex-shrink-0 max-w-xl relative z-10 md:text-left md:ml-20 lg:ml-40 px-4">
+        <h1 className="text-4xl font-bold">WELCOME IN MY WEBSITE</h1>
+        <p className="mt-4 text-lg">I'm Saka Karna Bramasta</p>
+        <p className="mt-4 text-lg">Web development</p>
+      </div>
+
+      <div className="absolute inset-0 z-50 pointer-events-none md:text-left md:ml-80 lg:ml-96 px-4">
+        <Lanyard position={[0, 0, 15]} gravity={[0, -40, 0]} />
+      </div>
     </div>
   );
 }
+
