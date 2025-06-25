@@ -45,7 +45,7 @@ function IconContent() {
         className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition"
         aria-label="LinkedIn"
       >
-        <BsLinkedin className="text-blue-500 w-7 h-7" />
+        <BsLinkedin className="text-blue-500 w-5 h-5" />
       </a>
       <a
         href="https://instagram.com/yourprofile"
@@ -54,7 +54,7 @@ function IconContent() {
         className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition"
         aria-label="Instagram"
       >
-        <BsInstagram className="text-red-500 w-7 h-7" />
+        <BsInstagram className="text-red-500 w-5 h-5" />
       </a>
       <a
         href="https://tiktok.com/@yourprofile"
@@ -63,7 +63,7 @@ function IconContent() {
         className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition"
         aria-label="TikTok"
       >
-        <BsGithub className="text-black w-7 h-7" />
+        <BsGithub className="text-black w-5 h-5" />
       </a>
     </div>
   );
