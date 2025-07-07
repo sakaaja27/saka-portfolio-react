@@ -10,7 +10,7 @@ export default function Hero() {
           beamWidth={2}
           beamHeight={15}
           beamNumber={14}
-          lightColor="#ffffff"
+          lightColor="#0000cc"
           speed={3}
           noiseIntensity={1.75}
           scale={0.2}

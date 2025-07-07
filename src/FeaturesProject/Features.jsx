@@ -2,7 +2,7 @@ import CardSwap, { Card } from "../widget/CardSwap";
 
 export default function FeaturesProject() {
   return (
-    <div className="h-screen px-6 pt-14 bg-black text-white">
+    <div className="h-screen px-6 pt-14 bg-gradient-to-b from-blue-900 to-black text-white">
       <div className="text-center">
         <h1 className="text-5xl font-extrabold tracking-tight drop-shadow-md">
           Features Project
@@ -31,6 +31,8 @@ export default function FeaturesProject() {
               <h3 className="text-xl font-semibold text-white">MariPeduli</h3>
                <img src="img/maripeduli.png"></img> 
               <p className="text-sm text-gray-300">Website Frontend competition UCDC 2025 Amikom Surakarta</p>
+               <img src="techstack/tailwindcss.svg"></img> 
+               <img src="techstack/javascript.svg"></img> 
             </Card>
             <Card className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 shadow-lg transition-transform hover:scale-105">
               <h3 className="text-xl font-semibold text-white">Food Scan Health</h3>

@@ -28,3 +28,10 @@ export const iconHero = [
     icon: <BsGithub className="text-black w-5 h-5" />,
   },
 ];
+
+export const features = [
+  { title: "BumiKita",
+    deskripsi: "lorem",
+    
+  }
+]
