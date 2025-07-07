@@ -10,7 +10,7 @@ export default function LeftContent() {
         delay={250}
         animateBy="words"
         direction="top"
-        className="text-sm md:text-base uppercase tracking-[0.2em] font-medium text-gray-500/90 mb-4 font-sans mx-auto items-center flex justify-center md:mx-0 md:items-start md:justify-start"
+        className="text-sm md:text-base uppercase tracking-[0.2em] font-medium md:text-gray-500/90 text-white mb-4 font-sans mx-auto items-center flex justify-center md:mx-0 md:items-start md:justify-start"
       />
 
       <BlurText
@@ -18,7 +18,7 @@ export default function LeftContent() {
         delay={750}
         animateBy="words"
         direction="top"
-        className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight bg-clip-text text-gray-500 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-sans mx-auto items-center flex justify-center md:mx-0 md:items-start md:justify-start"
+        className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight bg-clip-text md:text-gray-500 text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-sans mx-auto items-center flex justify-center md:mx-0 md:items-start md:justify-start"
       />
 
       <div className="relative group mx-auto md:mx-0 inline-block">
