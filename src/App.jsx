@@ -1,4 +1,4 @@
-import FeaturesProject from "./FeaturesProject/Features";
+import FeaturesProject from "./FeaturesProject/indexFeature";
 import Hero from "./Hero/Hero";
 import Navbar from "./Navbar/GlassNav";
 import TechStack from "./TechStack/indexTech";

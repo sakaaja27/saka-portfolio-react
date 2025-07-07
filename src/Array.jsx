@@ -30,8 +30,8 @@ export const iconHero = [
 ];
 
 export const features = [
-  { title: "BumiKita",
-    deskripsi: "lorem",
-    
+  { title: "MariPeduli",
+    deskripsi: "Website Frontend competition UCDC 2025 Amikom Surakarta",
+    src: "img/maripeduli.png"
   }
 ]

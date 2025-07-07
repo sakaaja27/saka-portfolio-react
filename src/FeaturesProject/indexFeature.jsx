@@ -30,7 +30,7 @@ export default function FeaturesProject() {
             <Card className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 shadow-lg transition-transform hover:scale-105">
               <h3 className="text-xl font-semibold text-white">MariPeduli</h3>
                <img src="img/maripeduli.png"></img> 
-              <p className="text-sm text-gray-300">Website Frontend competition UCDC 2025 Amikom Surakarta</p>
+              <p className="text-sm text-gray-300"></p>
                <img src="techstack/tailwindcss.svg"></img> 
                <img src="techstack/javascript.svg"></img> 
             </Card>

@@ -3,12 +3,33 @@ import { Techs } from "../Array";
 export default function TechStack() {
   return (
     <div className="pt-24 text-white bg-gradient-to-b from-black to-blue-900">
-      <h1 className="text-5xl text-center font-extrabold tracking-tight drop-shadow-md">
+      <TitleContent/>
+      <Content/>
+    </div>
+  );
+}
+
+function TitleContent() {
+  return (
+  <h1 className="text-5xl text-center font-extrabold tracking-tight drop-shadow-md">
         Tech Stack
       </h1>
-      <div className="mt-10 container mx-auto  shadow-lg py-6 overflow-hidden">
-        <div className="overflow-hidden relatice w-full">
-          <div className="flex gap-8 animate-marquee whitespace-nowrap">
+      )
+}
+
+function Content() {
+  return (
+    <div className="mt-10 container mx-auto  shadow-lg py-6 overflow-hidden">
+        <div className="overflow-hidden relative w-full">
+          <AnimateMarquee/>
+        </div>
+      </div>
+  )
+}
+
+function AnimateMarquee() {
+  return (
+    <div className="flex gap-8 animate-marquee whitespace-nowrap">
             {Techs.concat(Techs).map((tech, idx) => (
               <div
                 key={tech.name + idx}
@@ -22,8 +43,5 @@ export default function TechStack() {
               </div>
             ))}
           </div>
-        </div>
-      </div>
-    </div>
-  );
+  )
 }
