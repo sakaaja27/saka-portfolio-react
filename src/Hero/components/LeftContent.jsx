@@ -1,5 +1,6 @@
+import { iconHero } from "../../Array";
 import BlurText from "../../widget/BlurText";
-import { BsGithub, BsInstagram, BsLinkedin, BsTiktok } from "react-icons/bs";
+
 
 export default function LeftContent() {
   return (
@@ -38,33 +39,10 @@ export default function LeftContent() {
 function IconContent() {
   return (
     <div className="flex space-x-4 mt-4">
-      <a
-        href="https://linkedin.com/in/yourprofile"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition"
-        aria-label="LinkedIn"
-      >
-        <BsLinkedin className="text-blue-500 w-5 h-5" />
-      </a>
-      <a
-        href="https://instagram.com/yourprofile"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition"
-        aria-label="Instagram"
-      >
-        <BsInstagram className="text-red-500 w-5 h-5" />
-      </a>
-      <a
-        href="https://tiktok.com/@yourprofile"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition"
-        aria-label="TikTok"
-      >
-        <BsGithub className="text-black w-5 h-5" />
-      </a>
+      {iconHero.map((item) => (
+        <a key={item.label} href={item.href} target="_blank" rel="noopener noreferrer" className="bg-white p-3 rounded-full hover:scale-100 transition">{item.icon}
+        </a>
+      ))}
     </div>
   );
 }
