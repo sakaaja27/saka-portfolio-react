@@ -17,7 +17,7 @@ export default function Hero() {
           rotation={0}
         />
       </div>
-      <div className="px-6 text-white h-screen flex items-center justify-between relative overflow-hidden">
+      <div className="px-6 text-white h-screen flex flex-col md:flex-row items-center justify-between relative overflow-hidden">
         <LeftContent />
         <RightContent />
       </div>
