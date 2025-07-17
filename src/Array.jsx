@@ -9,6 +9,7 @@ export const Techs = [
   { name: "Java", src: "/techstack/java.svg" },
   { name: "Flutter", src: "/techstack/flutter.svg" },
   { name: "Dart", src: "/techstack/dart.svg" },
+  {name: "C#", src:"/techstack/csharp.svg"}
 ];
 
 export const iconHero = [
