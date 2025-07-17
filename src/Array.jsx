@@ -30,9 +30,37 @@ export const iconHero = [
   },
 ];
 
-export const features = [
-  { title: "MariPeduli",
-    deskripsi: "Website Frontend competition UCDC 2025 Amikom Surakarta",
-    src: "img/maripeduli.png"
+export const projects = [
+  {
+    title: "BumiKita",
+    description: "Sistem manajemen bencana untuk BPBD dengan fitur real-time monitoring",
+    tags: ["React", "Tailwind CSS", "Mapbox"],
+    image: "img/bumikita.png",
+    link: "#",
+    techIcons: ["techstack/react.svg", "techstack/tailwindcss.svg", "techstack/mapbox.svg"]
+  },
+  {
+    title: "MariPeduli",
+    description: "Platform crowdfunding untuk kegiatan sosial dan donasi",
+    tags: ["Next.js", "Firebase", "Stripe"],
+    image: "img/maripeduli.png",
+    link: "#",
+    techIcons: ["techstack/nextjs.svg", "techstack/firebase.svg", "techstack/stripe.svg"]
+  },
+  {
+    title: "Food Scan Health",
+    description: "Aplikasi pemindai nutrisi makanan menggunakan computer vision",
+    tags: ["TensorFlow.js", "React Native", "Node.js"],
+    image: "img/foodscan.png",
+    link: "#",
+    techIcons: ["techstack/tensorflow.svg", "techstack/react.svg", "techstack/nodejs.svg"]
+  },
+  {
+    title: "FlootieCook",
+    description: "Platform resep masakan dengan rekomendasi bahan terdekat",
+    tags: ["Vue.js", "Laravel", "MySQL"],
+    image: "img/flootiecook.png",
+    link: "#",
+    techIcons: ["techstack/vuejs.svg", "techstack/laravel.svg", "techstack/mysql.svg"]
   }
-]
+];
