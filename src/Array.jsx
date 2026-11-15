@@ -42,25 +42,25 @@ export const projects = [
   {
     title: "MariPeduli",
     description: "Platform crowdfunding untuk kegiatan sosial dan donasi",
-    tags: ["Next.js", "Firebase", "Stripe"],
+    tags: ["React.js"],
     image: "img/maripeduli.png",
     link: "#",
-    techIcons: ["techstack/nextjs.svg", "techstack/firebase.svg", "techstack/stripe.svg"]
+    techIcons: ["techstack/react.svg"]
   },
   {
-    title: "Food Scan Health",
-    description: "Aplikasi pemindai nutrisi makanan menggunakan computer vision",
-    tags: ["TensorFlow.js", "React Native", "Node.js"],
-    image: "img/foodscan.png",
+    title: "Wound Scan Diabetic",
+    description: "Aplikasi pemindai luka diabetes menggunakan CNN",
+    tags: ["TensorFlow", "Next.Js", "Flask"],
+    image: "img/wound-scan.png",
     link: "#",
-    techIcons: ["techstack/tensorflow.svg", "techstack/react.svg", "techstack/nodejs.svg"]
+    techIcons: ["techstack/tensorflow.svg", "techstack/nextjs.svg", "techstack/nodejs.svg"]
   },
   {
-    title: "FlootieCook",
-    description: "Platform resep masakan dengan rekomendasi bahan terdekat",
-    tags: ["Vue.js", "Laravel", "MySQL"],
-    image: "img/flootiecook.png",
+    title: "Timbangan Prodis",
+    description: "Aplikasi dekstop timbangan tebu dan material PT Sinergi Teknologi",
+    tags: ["C#", "Postgresql"],
+    image: "img/prodis.png",
     link: "#",
-    techIcons: ["techstack/vuejs.svg", "techstack/laravel.svg", "techstack/mysql.svg"]
+    techIcons: ["techstack/csharp.svg", "techstack/postgresql-icon.svg"]
   }
 ];

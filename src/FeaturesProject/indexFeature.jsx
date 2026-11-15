@@ -82,7 +82,7 @@ function ProjectCard({ project }) {
       whileHover={{ y: -8 }}
       className="relative group overflow-hidden rounded-2xl border border-white/10 shadow-2xl backdrop-blur-md bg-white/5 hover:bg-white/10 transition-all duration-300"
     >
-      {/* Image Section */}
+   
       <div className="h-48 relative overflow-hidden">
         <img
           src={project.image}
