@@ -35,10 +35,12 @@ function Header() {
           <img
             alt="Robin Monogram Badge"
             className="h-8 w-auto object-contain"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIb3v60loTs23tCa9ryKrXvE9Fud_kEPYxFvcdzuX95XeeCFFCqNdqYvIEX1EfZYKRs0-FP4sveea3fdVky8eN6g9ziMGEQjFEfTWHb9eroF2Yzc-p2lhM_r0PbtiQvjyhbmU9UBo7NZ-8CxxUJuvWVLPEUF_Bai0ybWz9pgTDLmnRXLGxwv4OLHyhVevVCXhbaOKLnqRcEwHmF3hbt47H4YWlPRzjuKIlMyfePeF7"
+            src="https://i.pinimg.com/736x/20/bf/b5/20bfb5e2711aa40f93549cd882650a75.jpg"
           />
           <a className="flex items-center gap-space-xs" href="#">
-            <span className="font-headline-sm text-headline-sm text-primary tracking-tight">Robin</span>
+            <span className="font-headline-sm text-headline-sm text-primary tracking-tight">
+              Bramasta
+            </span>
             <span className="px-1.5 py-0.5 bg-secondary-container text-on-secondary-fixed font-label-caps text-label-caps rounded rotate-[-2deg]">
               FOLIO
             </span>
@@ -70,12 +72,14 @@ function Header() {
           </div>
           <a
             className="px-space-md py-2 bg-primary text-on-primary font-label-tag text-label-tag rounded-full shadow-[2px_2px_0px_#fdcf49] hover:bg-surface-container-high hover:text-on-surface transition-all flex items-center justify-center"
-            href="#"
+            href="https://wa.me/085760199917"
           >
             ♥ CONTACT
           </a>
           <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-            <span className="material-symbols-outlined text-on-primary text-[18px]">person</span>
+            <span className="material-symbols-outlined text-on-primary text-[18px]">
+              person
+            </span>
           </div>
         </div>
       </div>
@@ -93,11 +97,11 @@ function Hero() {
           <img
             className="w-full h-full object-cover rounded-full"
             alt="Editorial close-up profile portrait of Robin, a creative product designer with retro rim glasses."
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCq3jUcvff_d6ROqZD63aVja-N-55pVrkE61WNpKCtodjOsQfF-RpuFJjyRjiBbL4tmIm7YM6l_PA44DG3fG5DvHLapyeg1Dsl5ORJcjT0GYbmjHR8NDDcONK7QukiCQbkh_ETCCae-xZwvKnQENCb-0cKIY6IT_-2DZ1cKbHXLzuqWAMebThKNIGktawmPbex2V239R8TFm13iDUt0Uis7eUmKq19tB8IXO9z5WQac"
+            src="https://i.pinimg.com/1200x/b2/e5/bb/b2e5bb8368ad6f7b69336d9730de3496.jpg"
           />
         </div>
         <span className="mt-2 font-label-caps text-label-caps bg-surface-container-lowest px-2 py-0.5 shadow-[1px_1px_0px_#111111] text-on-surface rotate-[2deg]">
-          Robin.heic
+          Bramasta.heic
         </span>
       </div>
 
@@ -107,7 +111,7 @@ function Hero() {
           <img
             className="w-full h-full object-cover rounded-full"
             alt="A candid 35mm film polaroid snapshot of a designer sketching wireframes in a sunlit studio."
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuByRTPVKcbbY1lsummnGwvjT3AA56I5pKX1hVGsknBeRMoo8FdF6c4lf_UsWgY1u9r-7Bc8S3A7ZNK7iWgcafxEy5qSgYIhB5z8ZodTDiiUZCTbi68P5JfF0YubPkmZpycbPybDqFcFpOQ8lsZC1kWQJ0GTfMiTqrP9HMR876tjlmojaGJBfHfScj39g6zeuCnyuOgNdWPRPVJ1ZY6PPHEcWzeNbUL1TxOa8RCMyARo"
+            src="https://i.pinimg.com/736x/5a/d5/16/5ad516af8a57e09450494b14fe6a0196.jpg"
           />
         </div>
         <span className="mt-2 font-label-caps text-label-caps bg-surface-container-lowest px-2 py-0.5 shadow-[1px_1px_0px_#111111] text-on-surface rotate-[-2deg]">
@@ -140,21 +144,23 @@ function Hero() {
           <span className="absolute bottom-2 left-2 w-2 h-2 rounded-full bg-primary" />
           <span className="absolute bottom-2 right-2 w-2 h-2 rounded-full bg-primary" />
           <h1 className="font-display text-display md:text-[6.5rem] md:leading-[6.2rem] text-primary tracking-tighter select-none font-bold">
-            ROBIN
+            SAKA BRAMASTA
           </h1>
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3 -mt-3 z-20">
           <div className="bg-secondary-fixed text-on-secondary-fixed px-3 py-1 font-label-caps text-label-caps shadow-[2px_2px_0px_#111111] rotate-[-2deg] flex items-center gap-1">
             <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-            <span>Product Designer</span>
+            <span>Fullstack Developer</span>
           </div>
           <div className="bg-surface-container-lowest text-on-surface px-3 py-1 font-label-tag text-label-tag shadow-[2px_2px_0px_#111111] rotate-[1.5deg] flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-[#1db954] animate-ping" />
-            <span className="font-bold tracking-tight">OPEN TO NEW WORK & GOOD PROBLEMS</span>
+            <span className="font-bold tracking-tight">
+              OPEN TO NEW WORK & GOOD PROBLEMS
+            </span>
           </div>
           <div className="bg-[#d2f3e8] text-[#0a4735] px-2.5 py-1 font-label-caps text-label-caps shadow-[2px_2px_0px_#111111] rotate-[-3deg]">
-            Chicago, IL ⌖
+            Probolinggo ⌖
           </div>
         </div>
 
@@ -177,7 +183,9 @@ function Hero() {
               gets out of your way.
             </span>
             <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#ffd8df] text-[#b31b46] shadow-[2px_2px_0px_#111111] rotate-[-8deg]">
-              <span className="material-symbols-outlined text-[20px]">local_florist</span>
+              <span className="material-symbols-outlined text-[20px]">
+                local_florist
+              </span>
             </span>
           </div>
         </div>
@@ -209,13 +217,18 @@ function Highlights() {
           <div>
             <div className="flex items-center justify-between mb-4">
               <span className="font-label-caps text-label-caps bg-secondary-container px-2 py-0.5 text-on-secondary-fixed">
-                NOTE #01
+                About Me #01
               </span>
-              <span className="font-label-caps text-label-caps text-on-surface-variant">2024.LOG</span>
+              <span className="font-label-caps text-label-caps text-on-surface-variant">
+                2026.LOG
+              </span>
             </div>
             <p className="font-body-md text-body-md text-on-surface leading-relaxed">
-              Complexity is easy. Simple, tactile, obvious interaction requires radical subtraction and
-              tireless empathy for the edge cases.
+              Hi, I'm Saka Karna Bramasta, a Fullstack Developer and Informatics
+              Engineering student at Politeknik Negeri Jember. Experienced in
+              building web applications, designing user-friendly interfaces, and
+              creating seamless digital experiences while continuously exploring
+              new technologies.
             </p>
           </div>
           <div className="mt-6 flex items-center gap-2">
@@ -227,17 +240,21 @@ function Highlights() {
         </div>
 
         {/* Note #02 */}
+
+        {/* Note #02 */}
         <div className="relative bg-[#e9f3ff] p-6 shadow-[3px_3px_0px_#111111] rotate-[1deg] flex flex-col justify-between">
           <div className="w-16 h-4 bg-secondary-container/70 absolute -top-2 right-8 rotate-[3deg]" />
           <div>
             <div className="flex items-center justify-between mb-4">
               <span className="font-label-caps text-label-caps bg-[#b3c5ff] px-2 py-0.5 text-tertiary-container">
-                STACK
+                TECH STACK
               </span>
-              <span className="font-label-caps text-label-caps text-on-surface-variant">EXP: 8 YRS</span>
+              <span className="font-label-caps text-label-caps text-on-surface-variant">
+                FULLSTACK
+              </span>
             </div>
             <div className="flex flex-wrap gap-1.5 mt-2">
-              {["Design Systems", "Figma Prototyping", "React / Swift", "Tactile Micro-copy"].map(
+              {["Laravel", "PHP", "React", "Vue.js", "Next.js"].map(
                 (tag, i) => (
                   <span
                     key={tag}
@@ -252,8 +269,10 @@ function Highlights() {
             </div>
           </div>
           <div className="mt-6 flex items-center justify-between">
-            <span className="font-label-caps text-label-caps text-on-surface">Physical meets digital</span>
-            <span className="material-symbols-outlined text-[18px]">touch_app</span>
+            <span className="font-label-caps text-label-caps text-on-surface">
+              Frontend & Backend
+            </span>
+            <span className="material-symbols-outlined text-[18px]">code</span>
           </div>
         </div>
 
@@ -265,18 +284,20 @@ function Highlights() {
               <span className="font-label-caps text-label-caps bg-[#ffb4c2] px-2 py-0.5 text-on-error-container">
                 STATUS
               </span>
-              <span className="font-label-caps text-label-caps text-on-surface-variant">Q3 / Q4</span>
+              <span className="font-label-caps text-label-caps text-on-surface-variant">
+                2026
+              </span>
             </div>
             <p className="font-body-md text-body-md text-on-surface leading-relaxed">
-              Taking on select product design, founding design advisory, and interaction architecture
-              contracts.
+              Open to fullstack development opportunities, freelance projects,
+              and collaboration on innovative digital solutions.
             </p>
           </div>
           <div className="mt-6 flex items-center justify-between">
             <span className="font-label-caps text-label-caps text-on-surface font-bold">
-              1 SPOT AVAILABLE
+              OPEN TO OPPORTUNITIES
             </span>
-            <span className="w-2.5 h-2.5 rounded-full bg-[#ba1a1a]" />
+            <span className="w-2.5 h-2.5 rounded-full bg-[#1b8c45]" />
           </div>
         </div>
       </div>
@@ -286,7 +307,10 @@ function Highlights() {
 
 function Achievements() {
   return (
-    <section className="py-20 md:py-28 border-t border-black/10 scroll-mt-20" id="achievements">
+    <section
+      className="py-20 md:py-28 border-t border-black/10 scroll-mt-20"
+      id="achievements"
+    >
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-10">
         <div className="flex items-center gap-3">
           <span className="w-3.5 h-3.5 bg-accentYellow rounded-sm border border-black/20"></span>
@@ -304,7 +328,14 @@ function Achievements() {
       {/* 6 Achievements Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {achievements.map((item, index) => {
-          const bgColors = ["bg-accentYellow", "bg-[#EBF3FF]", "bg-[#FFF3B0]", "bg-[#E6F8EE]", "bg-[#FFEAEA]", "bg-[#FFF6D4]"];
+          const bgColors = [
+            "bg-accentYellow",
+            "bg-[#EBF3FF]",
+            "bg-[#FFF3B0]",
+            "bg-[#E6F8EE]",
+            "bg-[#FFEAEA]",
+            "bg-[#FFF6D4]",
+          ];
           const tags = [
             { label: "★ NATIONAL GRANT", hash: "#P2MW" },
             { label: "★ HACKATHON", hash: "#KMIPN7" },
@@ -322,10 +353,14 @@ function Achievements() {
             >
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <div className={`w-10 h-10 rounded-xl ${bgColors[index % bgColors.length]} border-2 border-ink shadow-[1px_2px_0px_rgba(0,0,0,0.1)] flex items-center justify-center text-xl select-none group-hover:rotate-6 transition-transform`}>
+                  <div
+                    className={`w-10 h-10 rounded-xl ${bgColors[index % bgColors.length]} border-2 border-ink shadow-[1px_2px_0px_rgba(0,0,0,0.1)] flex items-center justify-center text-xl select-none group-hover:rotate-6 transition-transform`}
+                  >
                     {iconsEmoji[index % iconsEmoji.length]}
                   </div>
-                  <span className={`${index >= 4 ? "bg-[#D3F578] text-ink border-ink/40" : index === 0 ? "bg-accentYellow text-ink border-ink/40" : "bg-accentBlue text-white border-ink/20"} font-mono text-xs font-bold px-3 py-1 rounded-full border shadow-sm`}>
+                  <span
+                    className={`${index >= 4 ? "bg-[#D3F578] text-ink border-ink/40" : index === 0 ? "bg-accentYellow text-ink border-ink/40" : "bg-accentBlue text-white border-ink/20"} font-mono text-xs font-bold px-3 py-1 rounded-full border shadow-sm`}
+                  >
                     {item.year}
                   </span>
                 </div>
@@ -350,7 +385,10 @@ function Achievements() {
 
 function Experience() {
   return (
-    <section className="py-20 md:py-28 border-t border-black/10 scroll-mt-20" id="experience">
+    <section
+      className="py-20 md:py-28 border-t border-black/10 scroll-mt-20"
+      id="experience"
+    >
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-10">
         <div className="flex items-center gap-3">
           <span className="w-3.5 h-3.5 bg-accentBlue rounded-sm border border-black/20"></span>
@@ -372,31 +410,51 @@ function Experience() {
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-ink/10">
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-1.5">
-                  <h3 className="font-display font-bold text-lg md:text-xl text-ink">Frontend Developer</h3>
-                  <span className="bg-accentYellow text-ink font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-ink/40">Contract</span>
+                  <h3 className="font-display font-bold text-lg md:text-xl text-ink">
+                    Frontend Developer
+                  </h3>
+                  <span className="bg-accentYellow text-ink font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-ink/40">
+                    Contract
+                  </span>
                 </div>
-                <p className="font-sans text-sm font-semibold text-black/80">PT. Sinergi Gula Nusantara - CV.Sinergi Teknologi</p>
+                <p className="font-sans text-sm font-semibold text-black/80">
+                  PT. Sinergi Gula Nusantara - CV.Sinergi Teknologi
+                </p>
               </div>
               <div className="flex items-center gap-2 self-start sm:self-auto">
-                <span className="bg-white text-ink font-mono text-xs font-bold px-3 py-1 rounded-full border border-black/20">2025 - 2026</span>
+                <span className="bg-white text-ink font-mono text-xs font-bold px-3 py-1 rounded-full border border-black/20">
+                  2025 - 2026
+                </span>
               </div>
             </div>
             <ul className="mt-4 space-y-2 text-xs md:text-sm text-ink/80 font-sans">
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Redesign the SIMPG desktop application interface to increase usability and operational efficiency.</span>
+                <span>
+                  Redesign the SIMPG desktop application interface to increase
+                  usability and operational efficiency.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Collaborate with backend teams in system integration and application functionality testing.</span>
+                <span>
+                  Collaborate with backend teams in system integration and
+                  application functionality testing.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Develop and implement new features according to user needs and company business processes.</span>
+                <span>
+                  Develop and implement new features according to user needs and
+                  company business processes.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Develop desktop applications using the C# programming language.</span>
+                <span>
+                  Develop desktop applications using the C# programming
+                  language.
+                </span>
               </li>
             </ul>
           </div>
@@ -408,35 +466,57 @@ function Experience() {
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-ink/10">
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-1.5">
-                  <h3 className="font-display font-bold text-lg md:text-xl text-ink">Software Developer</h3>
-                  <span className="bg-accentYellow text-ink font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-ink/40">Contract</span>
+                  <h3 className="font-display font-bold text-lg md:text-xl text-ink">
+                    Software Developer
+                  </h3>
+                  <span className="bg-accentYellow text-ink font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-ink/40">
+                    Contract
+                  </span>
                 </div>
-                <p className="font-sans text-sm font-semibold text-black/80">FASTECHNO</p>
+                <p className="font-sans text-sm font-semibold text-black/80">
+                  FASTECHNO
+                </p>
               </div>
               <div className="flex items-center gap-2 self-start sm:self-auto">
-                <span className="bg-white text-ink font-mono text-xs font-bold px-3 py-1 rounded-full border border-black/20">2023 - 2026</span>
+                <span className="bg-white text-ink font-mono text-xs font-bold px-3 py-1 rounded-full border border-black/20">
+                  2023 - 2026
+                </span>
               </div>
             </div>
             <ul className="mt-4 space-y-2 text-xs md:text-sm text-ink/80 font-sans">
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Develop desktop applications using the Java programming language.</span>
+                <span>
+                  Develop desktop applications using the Java programming
+                  language.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Develop mobile applications using Java and Flutter with a total of two applications.</span>
+                <span>
+                  Develop mobile applications using Java and Flutter with a
+                  total of two applications.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Develop a website to support reporting disaster and data management systems.</span>
+                <span>
+                  Develop a website to support reporting disaster and data
+                  management systems.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Collaborate with BPBD Jember to develop disaster management and reporting applications and websites.</span>
+                <span>
+                  Collaborate with BPBD Jember to develop disaster management
+                  and reporting applications and websites.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Develop waste reporting and AI integration websites.</span>
+                <span>
+                  Develop waste reporting and AI integration websites.
+                </span>
               </li>
             </ul>
           </div>
@@ -448,35 +528,58 @@ function Experience() {
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-ink/10">
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-1.5">
-                  <h3 className="font-display font-bold text-lg md:text-xl text-ink">Web Developer</h3>
-                  <span className="bg-[#EBF3FF] text-accentBlue font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-ink/20">Freelance</span>
+                  <h3 className="font-display font-bold text-lg md:text-xl text-ink">
+                    Web Developer
+                  </h3>
+                  <span className="bg-[#EBF3FF] text-accentBlue font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-ink/20">
+                    Freelance
+                  </span>
                 </div>
-                <p className="font-sans text-sm font-semibold text-black/80">CV. Barouk Raya Technology</p>
+                <p className="font-sans text-sm font-semibold text-black/80">
+                  CV. Barouk Raya Technology
+                </p>
               </div>
               <div className="flex items-center gap-2 self-start sm:self-auto">
-                <span className="bg-white text-ink font-mono text-xs font-bold px-3 py-1 rounded-full border border-black/20">2023 - 2024</span>
+                <span className="bg-white text-ink font-mono text-xs font-bold px-3 py-1 rounded-full border border-black/20">
+                  2023 - 2024
+                </span>
               </div>
             </div>
             <ul className="mt-4 space-y-2 text-xs md:text-sm text-ink/80 font-sans">
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Develop a web-based management system for dental clinic operations.</span>
+                <span>
+                  Develop a web-based management system for dental clinic
+                  operations.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Implement drug and raw material stock management features, including recording incoming and outgoing goods.</span>
+                <span>
+                  Implement drug and raw material stock management features,
+                  including recording incoming and outgoing goods.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Build transaction modules for the sale and purchase of medicines and raw materials.</span>
+                <span>
+                  Build transaction modules for the sale and purchase of
+                  medicines and raw materials.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Develop a patient reservation system to increase the efficiency of clinical services.</span>
+                <span>
+                  Develop a patient reservation system to increase the
+                  efficiency of clinical services.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Collaborate on database design and backend integration to ensure data accuracy and system stability.</span>
+                <span>
+                  Collaborate on database design and backend integration to
+                  ensure data accuracy and system stability.
+                </span>
               </li>
             </ul>
           </div>
@@ -488,31 +591,52 @@ function Experience() {
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-ink/10">
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-1.5">
-                  <h3 className="font-display font-bold text-lg md:text-xl text-ink">Member System Information Division</h3>
-                  <span className="bg-[#FFEAEA] text-[#E05252] font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-ink/20">Organization</span>
+                  <h3 className="font-display font-bold text-lg md:text-xl text-ink">
+                    Member System Information Division
+                  </h3>
+                  <span className="bg-[#FFEAEA] text-[#E05252] font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-ink/20">
+                    Organization
+                  </span>
                 </div>
-                <p className="font-sans text-sm font-semibold text-black/80">Himpunan Mahasiswa Jurusan Teknologi Informasi Politeknik Negeri Jember</p>
+                <p className="font-sans text-sm font-semibold text-black/80">
+                  Himpunan Mahasiswa Jurusan Teknologi Informasi Politeknik
+                  Negeri Jember
+                </p>
               </div>
               <div className="flex items-center gap-2 self-start sm:self-auto">
-                <span className="bg-white text-ink font-mono text-xs font-bold px-3 py-1 rounded-full border border-black/20">2023 - 2024</span>
+                <span className="bg-white text-ink font-mono text-xs font-bold px-3 py-1 rounded-full border border-black/20">
+                  2023 - 2024
+                </span>
               </div>
             </div>
             <ul className="mt-4 space-y-2 text-xs md:text-sm text-ink/80 font-sans">
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Design and develop a website for HMJ TI POLIJE to support information dissemination and member engagement.</span>
+                <span>
+                  Design and develop a website for HMJ TI POLIJE to support
+                  information dissemination and member engagement.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Implement features such as news and information display, event schedules, and member data management.</span>
+                <span>
+                  Implement features such as news and information display, event
+                  schedules, and member data management.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Collaborate with other divisions to integrate content and ensure a seamless user experience.</span>
+                <span>
+                  Collaborate with other divisions to integrate content and
+                  ensure a seamless user experience.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Maintain website performance and security, including regular updates and backups.</span>
+                <span>
+                  Maintain website performance and security, including regular
+                  updates and backups.
+                </span>
               </li>
             </ul>
           </div>
@@ -524,23 +648,37 @@ function Experience() {
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-ink/10">
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-1.5">
-                  <h3 className="font-display font-bold text-lg md:text-xl text-ink">IT Support</h3>
-                  <span className="bg-[#E6F8EE] text-ink font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-ink/20">Internship</span>
+                  <h3 className="font-display font-bold text-lg md:text-xl text-ink">
+                    IT Support
+                  </h3>
+                  <span className="bg-[#E6F8EE] text-ink font-mono text-xs font-bold px-2.5 py-0.5 rounded-full border border-ink/20">
+                    Internship
+                  </span>
                 </div>
-                <p className="font-sans text-sm font-semibold text-black/80">PT. Kutai Timber Indonesia</p>
+                <p className="font-sans text-sm font-semibold text-black/80">
+                  PT. Kutai Timber Indonesia
+                </p>
               </div>
               <div className="flex items-center gap-2 self-start sm:self-auto">
-                <span className="bg-white text-ink font-mono text-xs font-bold px-3 py-1 rounded-full border border-black/20">2021 - 2022</span>
+                <span className="bg-white text-ink font-mono text-xs font-bold px-3 py-1 rounded-full border border-black/20">
+                  2021 - 2022
+                </span>
               </div>
             </div>
             <ul className="mt-4 space-y-2 text-xs md:text-sm text-ink/80 font-sans">
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Assist with installation, maintenance and troubleshooting of IT devices to support employee operations.</span>
+                <span>
+                  Assist with installation, maintenance and troubleshooting of
+                  IT devices to support employee operations.
+                </span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="text-accentBlue font-bold mt-0.5">▪</span>
-                <span>Gain practical experience in managing information systems within industrial companies.</span>
+                <span>
+                  Gain practical experience in managing information systems
+                  within industrial companies.
+                </span>
               </li>
             </ul>
           </div>
@@ -573,15 +711,21 @@ function Works() {
           <div
             key={project.id}
             className={`group relative p-4 shadow-[4px_4px_0px_#111111] hover:shadow-[6px_6px_0px_#fdcf49] transition-all flex flex-col ${
-              index % 2 === 1 ? "bg-[#1c1b1b] text-on-primary" : "bg-surface-container-lowest text-on-surface"
+              index % 2 === 1
+                ? "bg-[#1c1b1b] text-on-primary"
+                : "bg-surface-container-lowest text-on-surface"
             }`}
           >
             <div className="flex items-center justify-between pb-3">
               <div className="flex items-center gap-2">
-                <span className={`font-label-caps text-label-caps px-2 py-0.5 ${index % 2 === 1 ? "bg-surface-variant text-on-surface" : "bg-surface-container text-on-surface-variant"}`}>
+                <span
+                  className={`font-label-caps text-label-caps px-2 py-0.5 ${index % 2 === 1 ? "bg-surface-variant text-on-surface" : "bg-surface-container text-on-surface-variant"}`}
+                >
                   #PROJECT 0{index + 1}
                 </span>
-                <span className={`font-label-caps text-label-caps ${index % 2 === 1 ? "text-primary-fixed-dim" : "text-on-surface-variant"}`}>
+                <span
+                  className={`font-label-caps text-label-caps ${index % 2 === 1 ? "text-primary-fixed-dim" : "text-on-surface-variant"}`}
+                >
                   WEB &amp; APP
                 </span>
               </div>
@@ -602,16 +746,22 @@ function Works() {
                 alt={project.title}
                 src={project.image}
               />
-              <span className={`absolute top-3 left-3 px-2 py-0.5 font-label-caps text-label-caps shadow-[1px_1px_0px_#111111] ${index % 2 === 1 ? "bg-[#4c7df7] text-on-primary rotate-[1.5deg]" : "bg-secondary-container text-on-secondary-fixed rotate-[-2deg]"}`}>
+              <span
+                className={`absolute top-3 left-3 px-2 py-0.5 font-label-caps text-label-caps shadow-[1px_1px_0px_#111111] ${index % 2 === 1 ? "bg-[#4c7df7] text-on-primary rotate-[1.5deg]" : "bg-secondary-container text-on-secondary-fixed rotate-[-2deg]"}`}
+              >
                 {project.title}
               </span>
             </div>
             <div className="pt-4 flex flex-col flex-1 justify-between">
               <div>
-                <h3 className={`font-headline-sm text-headline-sm font-bold ${index % 2 === 1 ? "text-on-primary" : "text-primary"}`}>
+                <h3
+                  className={`font-headline-sm text-headline-sm font-bold ${index % 2 === 1 ? "text-on-primary" : "text-primary"}`}
+                >
                   {project.title}
                 </h3>
-                <p className={`font-body-sm text-body-sm mt-1 ${index % 2 === 1 ? "text-primary-fixed-dim" : "text-on-surface-variant"}`}>
+                <p
+                  className={`font-body-sm text-body-sm mt-1 ${index % 2 === 1 ? "text-primary-fixed-dim" : "text-on-surface-variant"}`}
+                >
                   {project.description}
                 </p>
               </div>
@@ -634,12 +784,36 @@ function Works() {
 }
 
 const BRANDS = [
-  { name: "DJI", cls: "bg-surface-container-lowest text-on-surface rotate-[-2deg]", hover: "hover:bg-secondary-container" },
-  { name: "F1", cls: "bg-[#ffd8df] text-[#ba1a1a] rotate-[2.5deg] font-extrabold tracking-tight", hover: "" },
-  { name: "klook", cls: "bg-[#e0f2fe] text-[#0369a1] rotate-[-1deg]", hover: "" },
-  { name: "NIKE", cls: "bg-surface-container-lowest text-on-surface rotate-[1.5deg] font-black italic tracking-widest", hover: "hover:bg-secondary-container" },
-  { name: "HONDA", cls: "bg-[#fef08a] text-[#715800] rotate-[-3deg] tracking-widest", hover: "" },
-  { name: "LINEAR", cls: "bg-[#dcfce7] text-[#15803d] rotate-[1deg]", hover: "" },
+  {
+    name: "DJI",
+    cls: "bg-surface-container-lowest text-on-surface rotate-[-2deg]",
+    hover: "hover:bg-secondary-container",
+  },
+  {
+    name: "F1",
+    cls: "bg-[#ffd8df] text-[#ba1a1a] rotate-[2.5deg] font-extrabold tracking-tight",
+    hover: "",
+  },
+  {
+    name: "klook",
+    cls: "bg-[#e0f2fe] text-[#0369a1] rotate-[-1deg]",
+    hover: "",
+  },
+  {
+    name: "NIKE",
+    cls: "bg-surface-container-lowest text-on-surface rotate-[1.5deg] font-black italic tracking-widest",
+    hover: "hover:bg-secondary-container",
+  },
+  {
+    name: "HONDA",
+    cls: "bg-[#fef08a] text-[#715800] rotate-[-3deg] tracking-widest",
+    hover: "",
+  },
+  {
+    name: "LINEAR",
+    cls: "bg-[#dcfce7] text-[#15803d] rotate-[1deg]",
+    hover: "",
+  },
 ];
 
 function Brands() {
@@ -657,7 +831,9 @@ function Brands() {
             key={b.name}
             className={`px-4 py-2 shadow-[2px_2px_0px_#111111] hover:rotate-0 transition-all cursor-pointer ${b.cls} ${b.hover}`}
           >
-            <span className="font-headline-sm text-headline-sm font-bold tracking-tighter">{b.name}</span>
+            <span className="font-headline-sm text-headline-sm font-bold tracking-tighter">
+              {b.name}
+            </span>
           </div>
         ))}
       </div>
@@ -699,27 +875,30 @@ function Contact() {
         LET’S TALK
       </h2>
       <p className="font-body-md text-body-md text-on-surface-variant max-w-md mt-2">
-        Got a project, a hard problem, or just want to say hi? Send it over. I read every message.
+        Got a project, a hard problem, or just want to say hi? Send it over. I
+        read every message.
       </p>
 
       <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
         <a
           className="inline-flex items-center gap-2 px-5 py-2.5 bg-surface-container-lowest shadow-[3px_3px_0px_#111111] hover:bg-secondary-container hover:text-on-secondary-fixed text-on-surface font-label-tag text-label-tag rotate-[-1deg] transition-all"
-          href="mailto:hello@robin.design"
+          href="mailto:sakabramasta@gmail.com"
         >
           <span className="material-symbols-outlined text-[18px]">mail</span>
-          <span>hello@robin.design</span>
+          <span>sakabramasta@gmail.com</span>
         </a>
         <button
           type="button"
           title="Copy email to clipboard"
           onClick={() => {
-            navigator.clipboard.writeText("hello@robin.design");
-            alert("Copied hello@robin.design to clipboard!");
+            navigator.clipboard.writeText("sakabramasta@gmail.com");
+            alert("Copied sakabramasta@gmail.com to clipboard!");
           }}
           className="inline-flex items-center gap-1.5 px-3 py-2.5 bg-surface-container-high shadow-[2px_2px_0px_#111111] hover:bg-surface-container text-on-surface font-label-caps text-label-caps rotate-[1.5deg] transition-all"
         >
-          <span className="material-symbols-outlined text-[16px]">content_copy</span>
+          <span className="material-symbols-outlined text-[16px]">
+            content_copy
+          </span>
           <span>COPY</span>
         </button>
       </div>
@@ -740,7 +919,7 @@ function Footer() {
       <div className="max-w-[1280px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-space-lg">
         <div className="flex items-center gap-space-sm">
           <span className="font-label-caps text-label-caps text-on-surface-variant">
-            © 2024 ROBIN STUDIO. BUILT WITH PHYSICAL DELIGHT.
+            © 2026 BRAMASTA. BUILT WITH PHYSICAL DELIGHT.
           </span>
         </div>
         <div className="flex flex-wrap items-center gap-space-sm">
