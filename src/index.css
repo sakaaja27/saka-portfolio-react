@@ -1,81 +1,131 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-headline-lg: "Space Grotesk", sans-serif;
+  --font-headline-lg-mobile: "Space Grotesk", sans-serif;
+  --font-headline-md: "Space Grotesk", sans-serif;
+  --font-headline-sm: "Space Grotesk", sans-serif;
+  --font-label-tag: "Space Grotesk", sans-serif;
+  --font-label-caps: "Space Grotesk", sans-serif;
+  --font-body-md: "Inter", sans-serif;
+  --font-body-sm: "Inter", sans-serif;
+  --font-body-lg: "Inter", sans-serif;
+
+  --text-display: 5rem;
+  --text-display--line-height: 5rem;
+  --text-display--letter-spacing: -0.04em;
+  --text-display--font-weight: 700;
+  --text-display-mobile: 3rem;
+  --text-display-mobile--line-height: 3.25rem;
+  --text-display-mobile--letter-spacing: -0.03em;
+  --text-display-mobile--font-weight: 700;
+  --text-headline-lg: 2.5rem;
+  --text-headline-lg--line-height: 2.75rem;
+  --text-headline-lg--letter-spacing: -0.03em;
+  --text-headline-lg--font-weight: 700;
+  --text-headline-lg-mobile: 1.75rem;
+  --text-headline-lg-mobile--line-height: 2rem;
+  --text-headline-lg-mobile--letter-spacing: -0.02em;
+  --text-headline-lg-mobile--font-weight: 700;
+  --text-headline-md: 1.75rem;
+  --text-headline-md--line-height: 2.125rem;
+  --text-headline-md--letter-spacing: -0.02em;
+  --text-headline-md--font-weight: 600;
+  --text-headline-sm: 1.25rem;
+  --text-headline-sm--line-height: 1.5rem;
+  --text-headline-sm--letter-spacing: -0.01em;
+  --text-headline-sm--font-weight: 600;
+  --text-label-tag: 0.8125rem;
+  --text-label-tag--line-height: 1rem;
+  --text-label-tag--font-weight: 600;
+  --text-label-caps: 0.75rem;
+  --text-label-caps--line-height: 1rem;
+  --text-label-caps--letter-spacing: 0.08em;
+  --text-label-caps--font-weight: 700;
+  --text-body-md: 1rem;
+  --text-body-md--line-height: 1.5rem;
+  --text-body-sm: 0.875rem;
+  --text-body-sm--line-height: 1.25rem;
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.75rem;
+
+  --spacing-margin: 2rem;
+  --spacing-margin-mobile: 1rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-mobile: 1rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-space-2xl: 4rem;
+
+  --color-surface-container-highest: #e4e2dd;
+  --color-inverse-surface: #30312e;
+  --color-secondary-fixed: #ffe08f;
+  --color-on-tertiary-container: #4c7df7;
+  --color-primary-fixed-dim: #c8c6c5;
+  --color-on-error-container: #93000a;
+  --color-surface: #fbf9f4;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #001849;
+  --color-on-secondary: #ffffff;
+  --color-on-primary-container: #858383;
+  --color-error-container: #ffdad6;
+  --color-surface-tint: #5f5e5e;
+  --color-on-surface-variant: #444748;
+  --color-on-secondary-fixed: #241a00;
+  --color-surface-container-high: #eae8e3;
+  --color-on-primary: #ffffff;
+  --color-on-background: #1b1c19;
+  --color-surface-container-low: #f5f3ee;
+  --color-on-primary-fixed-variant: #474646;
+  --color-on-secondary-container: #715800;
+  --color-outline: #747878;
+  --color-secondary: #755b00;
+  --color-inverse-primary: #c8c6c5;
+  --color-background: #fbf9f4;
+  --color-surface-bright: #fbf9f4;
+  --color-surface-variant: #e4e2dd;
+  --color-surface-dim: #dcdad5;
+  --color-on-tertiary-fixed-variant: #003fa4;
+  --color-secondary-container: #fdcf49;
+  --color-tertiary-fixed: #dbe1ff;
+  --color-primary-fixed: #e5e2e1;
+  --color-on-secondary-fixed-variant: #584400;
+  --color-outline-variant: #c4c7c7;
+  --color-surface-container: #f0eee9;
+  --color-on-tertiary-fixed: #001849;
+  --color-on-error: #ffffff;
+  --color-tertiary-fixed-dim: #b3c5ff;
+  --color-primary-container: #1c1b1b;
+  --color-tertiary: #000000;
+  --color-primary: #000000;
+  --color-inverse-on-surface: #f3f1ec;
+  --color-error: #ba1a1a;
+  --color-secondary-fixed-dim: #eec13c;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-primary-fixed: #1c1b1b;
+  --color-on-surface: #1b1c19;
+  --color-accentYellow: #fdcf49;
+  --color-accentBlue: #3b6fe8;
+  --color-ink: #111111;
+  --shadow-brutal: 4px 4px 0px #111111;
+  --shadow-card-lift: 6px 6px 0px #111111;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
 ::-webkit-scrollbar {
-    width: 0;
+  display: none;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-/* marquee in techstack */
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-.animate-marquee {
-  animation: marquee 18s linear infinite;
-}
-
-/* fade up in hero */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.animate-fadeInUp {
-  animation: fadeInUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
-}
-
-// glass
-.glass-card {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 1.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
-  transition: all 0.3s ease;
-}
-
-.glass-card:hover {
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
-  transform: translateY(-5px);
-}
-
-.highlight-text {
-  color: white;
-  font-weight: 600;
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: relative;
-}
-
-.highlight-text::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s ease;
-}
-
-.highlight-text:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
+.ruled-bg {
+  background-color: #fbf9f4;
+  background-image: linear-gradient(rgba(17, 17, 17, 0.06) 1px, transparent 1px);
+  background-size: 100% 2rem;
 }

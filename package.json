@@ -13,6 +13,7 @@
     "@react-three/drei": "^10.5.1",
     "@react-three/fiber": "^9.2.0",
     "@react-three/rapier": "^2.1.0",
+    "@tabler/icons-react": "^3.52.0",
     "@tailwindcss/vite": "^4.1.10",
     "framer-motion": "^12.19.1",
     "gsap": "^3.13.0",
